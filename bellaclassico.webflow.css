@@ -1,0 +1,300 @@
+:root {
+  --black: #0a0a0a;
+}
+
+body {
+  color: #333;
+  font-family: Leculier, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.but1 {
+  background-color: rgba(0, 0, 0, 0);
+  font-family: Leculier, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.but2, .but2.w--current {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.body {
+  background-color: var(--black);
+}
+
+.navbackground {
+  height: 3vh;
+  margin-bottom: 0;
+  position: fixed;
+}
+
+.but5 {
+  background-color: rgba(0, 0, 0, 0);
+  font-family: Leculier, sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 20px;
+}
+
+.but5.w--current {
+  font-family: Leculier, sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.section1 {
+  height: 100vh;
+  object-fit: contain;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url('../images/250SWB-1.jpg');
+  background-position: 50% 45%;
+  background-size: cover;
+  font-size: 20px;
+  line-height: 15px;
+}
+
+.section2 {
+  height: 100vh;
+  background-color: var(--black);
+  background-image: url('../images/GTO-ROSSO2.jpg');
+  background-position: 50% 35%;
+  background-size: cover;
+  display: block;
+  position: relative;
+}
+
+.section3 {
+  height: 100vh;
+  object-fit: cover;
+  background-image: url('../images/275rearsilver.jpg');
+  background-position: 50%;
+  background-repeat: repeat-y;
+  background-size: auto;
+  position: relative;
+}
+
+.navbackhero {
+  z-index: 25;
+  position: fixed;
+}
+
+.section4 {
+  height: 100vh;
+  background-image: url('../images/275resize.jpg');
+  background-position: 50%;
+  background-size: cover;
+  position: relative;
+}
+
+.section5 {
+  height: 100vh;
+  background-image: url('../images/Silver250alt.jpg');
+  background-position: 50%;
+  background-size: cover;
+  position: relative;
+}
+
+.section6 {
+  height: 100vh;
+  background-image: url('../images/sidesilverbrown.jpg');
+  background-position: 50%;
+  background-size: cover;
+  position: relative;
+}
+
+.section8 {
+  height: 120vh;
+  object-fit: fill;
+  background-image: url('../images/Vertical3dprinter.png');
+  background-position: 50%;
+  background-size: cover;
+  position: relative;
+}
+
+.but0.w--current {
+  background-color: rgba(0, 0, 0, 0);
+  font-family: Leculier, sans-serif;
+}
+
+.but3, .but3.w--current, .but4, .but4.w--current, .but6, .but7 {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.text-block {
+  color: #e9d7d7;
+  font-weight: 400;
+  line-height: 25px;
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: auto;
+  right: 0%;
+}
+
+.div-block-8 {
+  margin-top: -5px;
+  margin-bottom: -5px;
+  margin-left: 0;
+  padding-bottom: 0;
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: auto;
+  right: 0%;
+}
+
+.gtoclassico {
+  color: #beb3b3;
+  margin-right: 0;
+  font-size: 20px;
+  position: absolute;
+  top: auto;
+  bottom: 5%;
+  left: auto;
+  right: 8%;
+}
+
+.silverstreak {
+  color: #c0b6b6;
+  line-height: 20px;
+  position: absolute;
+  bottom: 52px;
+  right: 142px;
+}
+
+.but8 {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.section7 {
+  height: 100vh;
+  background-image: url('../images/Topsilverbrowndesign.jpg');
+  background-position: 50%;
+  background-size: contain;
+  line-height: 120vh;
+}
+
+.div-block-9 {
+  height: 120vh;
+}
+
+.block-quote {
+  text-align: left;
+  margin-bottom: 31px;
+}
+
+.div-block-10 {
+  height: 100px;
+  margin-top: 2px;
+  padding-top: 169px;
+  padding-left: 85px;
+  padding-right: 599px;
+}
+
+.paragraph {
+  text-align: center;
+  background-color: #dddfe7;
+  font-family: Exo, sans-serif;
+  font-size: 25px;
+  line-height: 25px;
+}
+
+.utility-page-wrap {
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.utility-page-content {
+  width: 260px;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.utility-page-form {
+  flex-direction: column;
+  align-items: stretch;
+  display: flex;
+}
+
+@media screen and (max-width: 991px) {
+  .but5.w--current {
+    font-family: Exo, sans-serif;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  body {
+    background-color: var(--black);
+  }
+
+  .but1 {
+    margin-left: -4px;
+    padding-left: 7px;
+    font-family: Exo, sans-serif;
+    line-height: 14px;
+  }
+
+  .navbackground {
+    margin-left: 1px;
+    margin-right: 0;
+    padding-left: 2px;
+    font-family: Exo, sans-serif;
+    font-weight: 100;
+    line-height: 14px;
+    position: fixed;
+  }
+
+  .but5 {
+    padding-left: 0;
+    padding-right: 10px;
+    font-family: Exo, sans-serif;
+    line-height: 14px;
+  }
+
+  .but5.w--current {
+    padding-right: 8px;
+    font-family: Exo, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 15px;
+  }
+
+  .section1 {
+    height: 70vh;
+    background-position: 50%;
+  }
+
+  .text-block {
+    bottom: 0%;
+  }
+
+  .gtoclassico {
+    bottom: 140px;
+    right: 24px;
+  }
+
+  .silverstreak {
+    bottom: 331px;
+    right: 11px;
+  }
+}
+
+
+@font-face {
+  font-family: 'Leculier';
+  src: url('../fonts/Leculier-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
